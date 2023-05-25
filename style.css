@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    background-color: #27aae3;
+}
+
+header div {
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+header span {
+    font-size: large;
+    font-weight: 400;
+}
+
+.main div {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.panjang .persegi {
+    display: block;
+    margin: 0 50px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #027db2;
+    color: #fff;
+    font-size: medium;
+}
+
+.panjang p {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: #0d8dc4;
+}
+
+/* luas persegi */
+
+.luas-persegi {
+    margin: 0 50px 50px;
+    padding-bottom: 120px;
+    border: 1px #027db2 solid;
+    height: auto;
+    
+}
+
+.head-persegi {
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #027db2;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+/* persegi */
+.kotak {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #cc021a solid;
+}
+  
+
+.AB p {
+    margin-top: 50px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+.AB span {
+    padding-left: 160px;
+}
+
+.CD p {
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+.CD span {
+    padding-left: 160px;
+}
+
+.bujur {
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Rumus Luas */
+
+.rumus {
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: large;
+}
+
+.rumus p {
+    padding-top: 70px;
+}
+
+.LS {
+    margin:50px 50px;
+    padding-bottom: 100px;
+    /* border-bottom: 1px solid; */
+}
+
+/* Hitung luas */
+.sisi-luas {
+    margin-top: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hitung {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    color: #fff;
+    background-color: #027db2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.show-luas {
+    display: none;
+}
+
+.show {
+    margin-left: 50px;
+}
+
+#reset-luas {
+    float: right;
+    padding: 15px 30px;
+    margin: 30px 20px 50px 20px;
+    font-size: large;
+    font-weight: 400;
+    color: #fff;
+    background-color: #e2ac08;
+    border: #c09002;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* keliling persegi */
+
+.keliling-persegi {
+    margin: 0 50px 50px;
+    padding-bottom: 120px;
+    border: 1px #027db2 solid;
+    height: auto;
+    
+}
+
+.head-persegi {
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #027db2;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+/* persegi */
+.kotak {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #cc021a solid;
+}
+  
+
+.AB p {
+    margin-top: 50px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+.AB span {
+    padding-left: 160px;
+}
+
+.CD p {
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+.CD span {
+    padding-left: 160px;
+}
+
+.bujur {
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Rumus keliling */
+
+.rumus {
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: large;
+}
+
+.rumus p {
+    padding-top: 70px;
+}
+
+.LS {
+    margin:50px 50px;
+    padding-bottom: 100px;
+    /* border-bottom: 1px solid; */
+}
+
+/* Hitung keliling */
+.sisi-keliling {
+    margin-top: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hitung {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    color: #fff;
+    background-color: #027db2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.show-keliling {
+    display: none;
+}
+
+.show {
+    margin-left: 50px;
+}
+
+#reset-keliling {
+    float: right;
+    padding: 15px 30px;
+    margin: 30px 20px 50px 20px;
+    font-size: large;
+    font-weight: 400;
+    color: #fff;
+    background-color: #e2ac08;
+    border: #c09002;
+    border-radius: 10px;
+    cursor: pointer;
+}
